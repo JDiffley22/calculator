@@ -1,9 +1,21 @@
+body {
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 100pt;
+  }
+
 .header {
     text-align: center;
 }
 
 .container {
     border: 1px solid #4b4b4b;
+    background-color: #ffffff;
     border-radius: 20px;
     position: absolute;
     top: 55%;
